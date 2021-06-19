@@ -1,0 +1,104 @@
+body {
+    background-color: blanchedalmond;
+    background-image: url(../img/bg.png);
+    color: black;
+    font-size: 24px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    /* text-align: center; */
+}
+
+
+p,
+h1 {
+    color: rgb(53, 15, 15);
+}
+
+/* h1 {
+    font: size 70px;
+    color: black;
+
+} */
+
+/* basic div style */
+div {
+    background: pink;
+    width: 500px;
+    height: 500px;
+}
+
+span {
+    color: darkred;
+}
+
+/* The CSS Box Model */
+
+/* 
+   
+    Margin: empty space around my element
+    Borders: a stroke around my element
+    Padding: empty space with bg around my element 
+    
+    All of the above ADD on top of the width and height!
+*/
+.box {
+    background-image: url(../img/bg_01.png);
+    background-repeat: no-repeat;
+    background-color: pink;
+    width: 300px;
+    /* Margin creates empty space withOUT the bg color */
+    margin: 100px;
+    /* margin-top: 50px;*/
+    border-left: 5px;
+    /* border-width: 5px; */
+    border-left-color: rebeccapurple;
+    border-left-style: solid;
+    /* Padding creates empty space with the bg color */
+    padding: 100px;
+}
+
+.body-text {
+    background-color: aliceblue;
+    width: 640px;
+    padding: 48px;
+}
+
+.body-text p {
+    color: deeppink;
+}
+
+/* style for a div that contains about us information */
+.about-us {
+    background-color: whitesmoke;
+    width: 500px;
+    height: 500px;
+}
+
+.order-online {
+    background-color: yellow;
+    width: 500px;
+    height: 500px;
+}
+
+.footer-nav {
+    background-color: yellow;
+    width: 640x;
+    height: 240px;
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
+}
+
+ul li {
+    list-style-type: circle;
+    background-color: bisque;
+    padding: 64px;
+}
+
+.container {
+    background-color: aliceblue;
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 24px;
+}

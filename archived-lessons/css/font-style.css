@@ -1,0 +1,50 @@
+body {
+    background-color: blanchedalmond;
+    background-image: url(../img/texturetastic_gray.png);
+    color: black;
+    font-size: 24px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+
+p {
+    color: rgb(185, 63, 63);
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+h1 {
+    font: size 70px;
+    color: black;
+    font-family: Consolas, monaco, monospace;
+    margin-bottom: 0px;
+
+}
+
+h2 {
+
+    margin-top: 0px;
+
+}
+
+/* Lord Vadar former Handle Annakin */
+
+a:link {
+    color: green;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+
+}
+
+a:hover {
+    color: yellowgreen;
+
+}
+
+a:active {
+    color: red;
+}
