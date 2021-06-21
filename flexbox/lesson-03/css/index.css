@@ -1,0 +1,11 @@
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  /* now stacked downward */
+  /* flex-direction: column; */
+  /* justify-content: flex-start; default */
+  justify-content: flex-end;
+
+  /* flex-start flex-end center space-around
+  space-between space-evenly */
+}
